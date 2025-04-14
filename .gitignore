@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (optional, customize based on your needs)
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.parquet
+*.json
+*.geojson
+*.pdf
+
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (customize as needed)
+output/*
+!output/.gitkeep
+
+# Keys and credentials
+keys/*
+!keys/.gitkeep
+
+# Large files
+*.pptx
+notebooks/Test.ipynb
+notebooks/EV_Infra_Analysis_Baltimore.py
+notebooks/EV_Infra_Analysis_Baltimore.txt
+main.py
